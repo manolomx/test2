@@ -1,4 +1,4 @@
-set :stages, %w(local pod staging qa production develop)
+set :stages, %w( qa )
 require 'capistrano/ext/multistage'
 
 set :application, "test2"
