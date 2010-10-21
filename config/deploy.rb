@@ -8,7 +8,7 @@ set :user, "manolo"
 set :branch, "master"
 set :use_sudo, false
 set :keep_releases, 6
-set :deploy_via, :remote_cache
+#set :deploy_via, :remote_cache
 #set :default_stage, "pod"
 set :deploy_to, "/home/#{user}/app"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
