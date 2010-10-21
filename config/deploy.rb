@@ -8,13 +8,13 @@ set :user, "manolo"
 set :branch, "master"
 set :use_sudo, false
 set :keep_releases, 6
-#set :deploy_via, :remote_cache
+set :deploy_via, :remote_cache
 #set :default_stage, "pod"
 set :deploy_to, "/home/#{user}/app"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 #role :web, "192.168.100.234"                          # Your HTTP server, Apache/etc
-role :app, "192.168.100.234 "                          # This may be the same as your `Web` server
+#role :app, "192.168.100.234 "                          # This may be the same as your `Web` server
 #role :db,  "192.168.100.234", :primary => true # This is where Rails migrations will run
 
 # If you are using Passenger mod_rails uncomment this:
